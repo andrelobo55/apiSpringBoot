@@ -5,6 +5,8 @@ public class User {
 	private String name;
 	private String email;
 	
+	private Department department;
+	
 	public User() {}
 	
 	public User(Long id, String name, String email) {
