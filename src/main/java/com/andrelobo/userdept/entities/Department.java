@@ -1,5 +1,10 @@
 package com.andrelobo.userdept.entities;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table (name = "tb_department")
 public class Department {
 	private Long id;
 	private String name;
